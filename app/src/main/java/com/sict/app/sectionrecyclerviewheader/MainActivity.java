@@ -5,6 +5,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.widget.ListView;
 
 import com.sict.app.sectionrecyclerviewheader.adapter.personAdapter;
 import com.sict.app.sectionrecyclerviewheader.model.person;
@@ -16,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
     ArrayList<Object> list;
     personAdapter adapter;
     RecyclerView rcv;
+    ListView listView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
