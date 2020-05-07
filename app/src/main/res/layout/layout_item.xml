@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:id="@+id/txt_name"
+    android:text="Phung Van Nam"
+    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+    android:textSize="20dp"
+    android:layout_margin="5dp"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:id="@+id/txt_phone"
+    android:textSize="17dp"
+    android:text="0338253456"
+    android:layout_margin="9dp"/>
+
+</LinearLayout>
