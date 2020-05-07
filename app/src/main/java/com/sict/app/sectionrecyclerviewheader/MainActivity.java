@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     personAdapter adapter;
     RecyclerView rcv;
     ListView listView;
+    int i= 10;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
